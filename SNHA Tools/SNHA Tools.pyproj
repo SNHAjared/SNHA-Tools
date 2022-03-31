@@ -31,8 +31,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SNHA Tools.extension\SNHA Tools.tab\Sheets.panel\Merge Sheet Note Families.pushbutton\MergeSheetNoteFamilies_script.py" />
-    <Compile Include="SNHA Tools.extension\SNHA Tools.tab\Sheets.panel\Sync Revisions.pushbutton\Sync Revisions_script.py" />
+    <Compile Include="SNHA Tools.extension\SNHA Tools.tab\Sheets.panel\Sync Revisions.pushbutton\SyncRevisions_script.py" />
     <Compile Include="SNHA Tools.extension\SNHA Tools.tab\Fire Life Safety.panel\Draw Fire Rating Lines.pushbutton\DrawFireRatingLines_script.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SNHA Tools.extension\SNHA Tools.tab\Fire Life Safety.panel\Draw Fire Rating Lines.pushbutton\DrawFireRatingLines_icon.png" />
+    <Content Include="SNHA Tools.extension\SNHA Tools.tab\Sheets.panel\Merge Sheet Note Families.pushbutton\MergeSheetNoteFamilies_icon.png" />
+    <Content Include="SNHA Tools.extension\SNHA Tools.tab\Sheets.panel\Sync Revisions.pushbutton\SyncRevisions_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
