@@ -59,7 +59,7 @@ for wall in walls:
 	wall_type = doc.GetElement(wall.GetTypeId())
 	fire_rating = wall_type.LookupParameter(_FIRE_RATING_PARAM_NAME).AsDouble()
 	
-	# ensure Fire Rating param value has been set in wall type properties
+	# check if Fire Rating param value has been set in wall type properties
 	try:
 		assert fire_rating != 0
 	except:
