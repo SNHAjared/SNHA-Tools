@@ -7,16 +7,17 @@
 
 
 from Autodesk.Revit.DB import *
-from pyrevit import revit, forms, _DocsGetter
+import pyrevit
+from pyrevit import revit, forms
 
-doc = _DocsGetter().doc
+doc = pyrevit._DocsGetter().doc
 selection = revit.get_selection()
 
 
 def main():
 
 	# phrase to search for in linestyle names to filter IN fire_rating_linestyles
-	_FIRE_RATING_LINESTYLE_PHRASE = 'Fire Rating'
+	_FIRE_RATING_LINESTYLE_PHRASE = 'FireRating'
 
 	# phrase to search for in linestyle names to filter IN fire_rating_linestyles by Code Requirement
 	_FIRE_RATING_CODE_LINESTYLE_PHRASE = 'Code'
